@@ -1,1 +1,1 @@
-export TF_VAR_Size=$Size
+export TF_VAR_Size=$1
