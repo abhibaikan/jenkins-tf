@@ -1,2 +1,2 @@
 sg_ports = [80,443,22]
-Size = "t2.nano"
+Size = "t1.micro"
