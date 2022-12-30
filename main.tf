@@ -1,6 +1,6 @@
 resource "aws_instance" "ec2" {
    ami = data.aws_ami.app_ami.id
-   instance_type = "t2.micro"
+   instance_type = var.Size
    security_groups = [aws_security_group.dynamicsg.name]
    key_name = var.kp
 }
