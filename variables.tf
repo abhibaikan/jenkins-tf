@@ -8,8 +8,4 @@ variable "kp" {
     default = "test"
 
 }
-variable "Size" {
-  type = string
-  description = "Size of VM"
-  default     = "t2.micro"
-}
+
