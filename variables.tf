@@ -8,4 +8,5 @@ variable "kp" {
     default = "test"
 
 }
+variable "Size"{}
 
